@@ -1,0 +1,538 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.RenderPipelines.HighDefinition.Runtime.dll
+/unsafe
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"C:/Рабочий стол/Unity/MobileDemo/Library/PackageCache/com.unity.render-pipelines.core@7.1.6/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/define:UNITY_2019_3_0
+/define:UNITY_2019_3
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:HDRP_1_OR_NEWER
+/define:ENABLE_VR_MODULE
+/define:ENABLE_XR_MODULE
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\AssemblyInfo.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\CoreResources\GPUCopy.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Debugging\FrameSettingsFieldAttribute.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Migration\IVersionable.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Migration\MigrationDescription.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Migration\MigrationStep.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Textures\EncodeBC6H.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Textures\TextureCache.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Textures\TextureCache2D.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Textures\TextureCacheCubemap.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Core\Utilities\GeometryUtils.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\ColorPickerDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\DebugDisplay.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\DebugLightVolumes.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\DecalsDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\FalseColorDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\LightingDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\MaterialDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\MipMapDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\RayCountManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Debug\TransparencyDebug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Documentation.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\AtmosphericScattering\AtmosphericScattering.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\AtmosphericScattering\ExponentialFog.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\AtmosphericScattering\Fog.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\AtmosphericScattering\ShaderVariablesAtmosphericScattering.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\AtmosphericScattering\VolumetricFog.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\DiffusionProfileOverride.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\GlobalIllumination.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\GlobalIlluminationUtils.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\IndirectLightingController.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Light\HDAdditionalLightData.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Light\HDAdditionalLightData.Types.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Light\HDAdditionalLightData.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\LightDefinition.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\LightLoop\GlobalLightLoopSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\LightLoop\LightLoop.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\LightLoop\ShaderVariablesLightLoop.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\LightUtils.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDAdditionalReflectionData.Legacy.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDAdditionalReflectionData.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDAdditionalReflectionData.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDProbe.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDProbe.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDProbeCullState.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDProbeCullingResults.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDProbeSystem.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\HDRuntimeReflectionSystem.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\PlanarReflectionProbe.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\PlanarReflectionProbe.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\PlanarReflectionProbeCache.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\ReflectionProbeCache.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\ReflectionSystemParameters.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\InfluenceVolume.Editor.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\InfluenceVolume.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\InfluenceVolume.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\ProxyVolume.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\ProxyVolume.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\ReflectionProxyVolumeComponent.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Reflection\Volume\ShapeType.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\ScreenSpaceLighting\AmbientOcclusion.RenderGraph.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\ScreenSpaceLighting\AmbientOcclusion.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\ScreenSpaceLighting\ScreenSpaceReflection.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\ScreenSpaceLighting\ScreenSpaceRefraction.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\ScreenSpaceLighting\ShaderVariablesScreenSpaceLighting.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\AdditionalShadowData.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\ContactShadows.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\HDShadowAtlas.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\HDShadowManager.RenderGraph.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\HDShadowManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\HDShadowSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\HDShadowUtils.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\MicroShadowing.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\Shadow\ScreenSpaceShadowManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\SphericalHarmonics.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\VolumetricLighting\DensityVolume.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\VolumetricLighting\DensityVolume.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\VolumetricLighting\DensityVolumeManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\VolumetricLighting\Texture3DAtlas.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\VolumetricLighting\VolumetricLighting.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Lighting\VolumetricLighting\VolumetricLightingController.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\AxF\AxF.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\AxF\AxFLTCAreaLight\LtcData.GGX2.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Builtin\BuiltinData.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\DBufferManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\Decal.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\DecalProjector.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\DecalProjector.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\DecalSystem.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\GlobalDecalSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Decal\ShaderVariablesDecal.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\DiffusionProfile\DiffusionProfileSettings.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\DiffusionProfile\DiffusionProfileSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Eye\Eye.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Fabric\Fabric.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Fabric\IBLFilterCharlie.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\GBufferManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\GGXConvolution\GGXConvolution.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\GGXConvolution\IBLFilterGGX.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Hair\Hair.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\IBLFilterBSDF.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\LTCAreaLight\LTCAreaLight.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\LTCAreaLight\LTCAreaLightCookieManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\LTCAreaLight\LtcData.DisneyDiffuse.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\LTCAreaLight\LtcData.GGX.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Lit\Lit.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\MaterialExtension.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\PreIntegratedFGD\PreIntegratedFGD.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\RenderPipelineMaterial.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\SharedRTManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\SphericalCapPivot\PivotData.GGX.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\SphericalCapPivot\SPTDistribution.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\StackLit\StackLit.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\StandardLit\StandardLit.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\SubsurfaceScattering\ShaderVariablesSubsurfaceScattering.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\SubsurfaceScattering\SubsurfaceScatteringManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Material\Unlit\Unlit.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\Bloom.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\ChannelMixer.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\ChromaticAberration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\ColorAdjustments.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\ColorCurves.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\DepthOfField.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\Exposure.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\FilmGrain.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\LensDistortion.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\LiftGammaGain.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\MotionBlur.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\PaniniProjection.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\ShadowsMidtonesHighlights.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\SplitToning.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\Tonemapping.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\Vignette.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Components\WhiteBalance.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\CustomPostProcessing\CustomPostProcessInjectionPoint.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\CustomPostProcessing\CustomPostProcessVolumeComponent.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\GlobalPostProcessSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\IPostProcessComponent.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\PostProcessSystem.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\PostProcessing\Shaders\UberPostFeatures.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Camera\HDAdditionalCameraData.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Camera\HDAdditionalCameraData.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Camera\HDCamera.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Camera\HDCameraFrameHistoryType.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\CullingGroupManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\GlobalLightingQualitySettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\GlobalLowResolutionTransparencySettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\GlobalPostProcessingQualitySettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDCustomSamplerId.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDGPUAsyncTask.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.Debug.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.LightLoop.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.LookDev.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.Prepass.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.RenderGraph.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.RenderGraphUtils.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.SubsurfaceScattering.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipeline.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipelineAsset.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipelineEditorResources.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipelineEditorResources.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderPipelineRayTracingResources.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDRenderQueue.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\HDStringConstants.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\MRTBufferManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\PathTracing\PathTracing.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDDiffuseDenoiser.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingAmbientOcclusion.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingDeferredLightLoop.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingIndirectDiffuse.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingLightCluster.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingRecursiveRenderer.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDRaytracingReflection.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDReflectionDenoiser.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDSimpleDenoiser.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\HDTemporalFilter.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\LightCluster.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\RayTracingSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Raytracing\RecursiveRendering.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\AOV\AOVBuffers.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\AOV\AOVRequest.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\AOV\AOVRequestBuilder.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\AOV\AOVRequestData.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\AOV\AOVRequestDataCollection.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\AOV\RenderOutputProperties.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\CustomPass\CustomPass.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\CustomPass\CustomPassInjectionPoint.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\CustomPass\CustomPassVolume.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\DrawRenderersCustomPass.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\FullScreenCustomPass.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPass\MipGenerator.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPipelineResources.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\RenderPipelineResources.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\SceneViewDrawMode.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\CaptureSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\FrameSettings.Migration.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\FrameSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\FrameSettingsHistory.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\RenderPipelineSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\ScalableSetting.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\ScalableSettingSchema.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\ScalableSettingSchemaId.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Settings\ScalableSettingValue.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\ShaderPass\ShaderPass.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Utility\BlueNoise.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Utility\HDUtils.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\Utility\Texture2DAtlas.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\XR\GlobalXRSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\XR\XRLayout.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\XR\XRPass.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\RenderPipeline\XR\XRSystem.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Scripting\GameObjectExtension.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\GradientSky\GradientSky.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\GradientSky\GradientSkyRenderer.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\HDRISky\HDRISky.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\HDRISky\HDRISkyRenderer.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\PhysicallyBasedSky\PhysicallyBasedSky.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\PhysicallyBasedSky\PhysicallyBasedSkyRenderer.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\SkyManager.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\SkyRenderer.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\SkyRenderingContext.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\SkySettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\SkyUpdateContext.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\StaticLightingSky.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Sky\VisualEnvironment.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\CameraCache.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\CameraPositionSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\CameraSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\CameraSettingsUtilities.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\DiffusionProfileHashTable.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\HDBakingUtilities.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\HDRenderPipelinePreferences.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\HDRenderUtilities.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\HDTextureUtilities.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\ProbeCapturePositionSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\ProbeSettings.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\ProbeSettingsUtilities.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\SceneObjectIDMap.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\TypeInfo.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\Utilities\VolumeComponentWithQuality.cs"
+"C:\Рабочий стол\Unity\MobileDemo\Library\PackageCache\com.unity.render-pipelines.high-definition@7.1.6\Runtime\VFXGraph\Utility\PropertyBinders\HDRPCameraBinder.cs"
